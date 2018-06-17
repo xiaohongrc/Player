@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_block"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dip"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/block_thumbnail"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/defualt_room_avatar"
+            android:scaleType="fitXY" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/block_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="10dip"
+                android:singleLine="true"
+                android:text="name"
+                android:textColor="#47CCB4"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/block_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="12dip"
+                android:text="duratioin"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/block_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center_vertical"
+                android:paddingRight="8dip"
+                android:textColor="#777777"
+                android:text="block_size"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

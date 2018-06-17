@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Fastest universal player</string>
+    <string name="duration_tag">Duration:</string>
+    <string name="no_video_file">There are no video files\nPlease download some,\n any format video is OK</string>
+    <string name="sd_not_insert">Can\'t find sdcard</string>
+    <string name="tip_click_again_exist">Tap again to exit</string>
+    <string name="request_permission_storage">You should give us this permission to show your video list</string>
+
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">万能超快播放器</string>
+
+    <string name="duration_tag">时长:</string>
+    <string name="no_video_file">手机里没视频\n快去弄一些吧\n什么格式都行。</string>
+    <string name="sd_not_insert">未找到SD卡</string>
+    <string name="tip_click_again_exist">双击 退出 应用</string>
+    <string name="request_permission_storage">你不给这个权限我们没法读取手机上的视频文件。</string>
+
+</resources>

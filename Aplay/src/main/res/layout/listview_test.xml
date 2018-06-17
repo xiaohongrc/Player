@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:id="@+id/music_menu_image_left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:visibility="invisible"
+            android:background="@mipmap/ic_launcher">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="6">
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4">
+
+                    <TextView
+                        android:id="@+id/listen_timer_left"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:gravity="center_vertical"
+                        android:text="1231313113"/>
+
+                    <ImageView
+                        android:id="@+id/ear_phone_left"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toLeftOf="@id/listen_timer_left"
+                        android:src="@mipmap/ic_launcher"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_height="30dp">
+
+                <ImageView
+                    android:id="@+id/user_image_icon_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_launcher"/>
+
+                <TextView
+                    android:id="@+id/music_menu_owner_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_toRightOf="@id/user_image_icon_left"
+                    android:text="123131231"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/music_menu_title_left"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout> 
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:id="@+id/music_menu_image_right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:visibility="invisible"
+            android:background="@mipmap/ic_launcher">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="6">
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4">
+
+                    <TextView
+                        android:id="@+id/listen_timer_right"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:gravity="center_vertical"
+                        android:text="1231313113"/>
+
+                    <ImageView
+                        android:id="@+id/ear_phone_right"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toLeftOf="@id/listen_timer_right"
+                        android:src="@mipmap/ic_launcher"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_height="30dp">
+
+                <ImageView
+                    android:id="@+id/user_image_icon_right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_launcher"/>
+
+                <TextView
+                    android:id="@+id/music_menu_owner_right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_toRightOf="@id/user_image_icon_right"
+                    android:text="123131231"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/music_menu_title_right"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
